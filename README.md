@@ -67,7 +67,7 @@ The zip contains:
 
 
 # redirection : possible operations:
-1. >
+1. > 
 2. >>
 3. <
 4. < >
