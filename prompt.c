@@ -1,9 +1,7 @@
 #include "prompt.h"
 #include "headers.h"
-#include "constants.h"
 
 
-
-void prompt(char* username, char* hostname) {
-        printf("%s@%s: ", username,hostname);
+void prompt(char* username, char* hostname,char* cwd) {
+        printf(RED"%s@%s:%s>"RESET, username,hostname,cwd);
 }
